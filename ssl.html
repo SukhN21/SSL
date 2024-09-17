@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en dir=ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial scale-1">
+        <meta name="author" content="Sukhjinder Singh">
+        <meta name="description" content="Intro to SSL">
+        <meta name="keywords" content="SSL, what is ssl, tls">
+        <title>SSL</title>
+        <link rel="icon" href="./Assets/img/CSS.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="./ssl.css" media="all">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+            <article>
+                <h2>What is SSL</h2>
+                <p>
+                    SSL stands for Secure Sockets Layer. It’s a security protocol designed to provide encrypted communication over a 
+                    network, most commonly used for securing data exchanged between web browsers and servers. SSL encrypts the data 
+                    transmitted between your browser and the website you’re visiting, making it difficult for anyone to intercept or 
+                    read the information.  SSL also ensures that the website you’re communicating with is the legitimate site you think 
+                    it is. It uses digital certificates issued by trusted Certificate Authorities (CAs) to verify the identity of the 
+                    website. SSL helps ensure that the data sent and received hasn’t been tampered with during transmission.
+                </p>
+                <h2>What is TLS</h2>
+                <p>
+                    TLS, or Transport Layer Security, is the successor to SSL (Secure Sockets Layer). It's a cryptographic protocol 
+                    designed to provide secure communication over a network. It also uses digital certificates to authenticate the 
+                    identity of the server. TLS is more secure than SSL because it incorporates improvements and fixes vulnerabilities 
+                    found in SSL. TLS provides mechanisms to ensure that the data has not been altered during transmission.
+                </p>
+                <h2>How can I tell that my webpage is secure?</h2>
+                <p>
+                    A secure webpage is one that implements various measures to protect data, ensure privacy, and maintain integrity 
+                    during transmission.
+                    <section>
+                    <nav>
+                        <ul>
+                            <li>
+                                <strong>Encryption:</strong> The data transmitted between the user's browser and the web server is 
+                                encrypted using TLS or SSL.
+                            </li>
+                            <li>
+                                <strong>Authentication:</strong> The webpage uses a valid SSL/TLS certificate issued by a trusted 
+                                Certificate Authority (CA).
+                            </li>
+                            <li>
+                                <strong>Secure Communication:</strong> The webpage is accessible via HTTPS rather than HTTP. 
+                            </li>
+                            <li>
+                                <strong> Security Headers:</strong> The site uses security headers like Content Security Policy (CSP), 
+                                Strict-Transport-Security (HSTS), and X-Content-Type-Options to protect against various types of 
+                                web-based attacks.
+                            </li>
+                        </ul>
+                    </nav>
+                    </section>
+                </p>
+                <h2>What does it mean to be secure?</h2>
+                <p>
+                    To be secure means to be protected against various threats, vulnerabilities, and risks. This concept applies 
+                    across many contexts.
+                    <section>
+                    <nav>
+                        <ul>
+                            <li>
+                                <strong>Confidentiality:</strong> Ensuring that information is accessible only to those authorized 
+                                to view it.
+                            </li>
+                            <li>
+                                <strong>Integrity:</strong> Ensuring that data is accurate and unaltered during transmission or storage.
+                            </li>
+                            <li>
+                                <strong>Resilience:</strong> Ensuring systems can withstand and recover from security incidents or 
+                                failures.
+                            </li>
+                            <li>
+                                <strong>Authentication:</strong> Confirming that users or systems are who they claim to be. This is typically 
+                                achieved through mechanisms like usernames and passwords, biometrics, or multi-factor authentication.
+                            </li>
+                        </ul>
+                    </nav>
+                    </section>
+                </p>
+                <h2>What is encryption and why do I care?</h2>
+                <p>
+                    Encryption is a process that transforms readable data into an unreadable format using a cryptographic algorithm 
+                    and a key. This transformation makes it difficult for unauthorized parties to access or understand the original data.
+                </p>
+                <p>
+                    You should care about encryption because it plays a critical role in protecting your personal information and 
+                    maintaining your privacy in the digital world. Here’s why encryption is important to you:
+                    <section>
+                    <nav>
+                        <ul>
+                            <li>
+                                <strong>Sensitive Information:</strong> Encryption secures your personal details, such as your social security number, 
+                                credit card information, and health records, from unauthorized access.
+                            </li>
+                            <li>
+                                <strong>Mitigates Risks:</strong> In the event of a data breach, encrypted data is much harder for hackers 
+                                to use. This means that even if your data is stolen, it remains encrypted and unusable without the proper 
+                                decryption key.
+                            </li>
+                            <li>
+                                <strong>Confidential Communication:</strong> Encryption keeps your emails, messages, and other 
+                                communications private, ensuring that only the intended recipient can read them.
+                            </li>
+                        </ul>
+                    </nav>
+                    </section>
+                </p>
+                <h2>Do the prefixes HTTP or HTTPS matter when we're talking about secure websites?</h2>
+                <p>
+                    Yes, the prefixes HTTP and HTTPS are crucial when discussing secure websites, and they indicate different levels 
+                    of security for web communications.
+                </p>
+                <h2>What is an SSL certificate authority?</h2>
+                <p>
+                    An SSL Certificate Authority (CA) is an organization that issues digital certificates used to secure communications 
+                    over the internet.
+                </p>
+            </article>
+        </main>
+    </body>
+</html> 
