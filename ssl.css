@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min(100% - 40px, 1200px);
+    margin-inline: auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    margin-left: 30px;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+nav {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+nav li + li {
+    margin-top: 3px;
+}
